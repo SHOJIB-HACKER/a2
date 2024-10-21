@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXTRA_TERESTIAL - Dark Web Shop</title>
+
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1d1f21;
+            color: #d1d1d1;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header section */
+        header {
+            background-color: #000;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        /* Title scrolling animation */
+        .scrolling-title {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 15s linear infinite;
+            font-size: 3em;
+            color: #00bfff;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Main section styles */
+        main {
+            padding: 50px 0;
+        }
+
+        /* Table styling */
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            background-color: #292b2c;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #555;
+        }
+
+        th {
+            background-color: #444;
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        td img {
+            width: 100px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        td img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Button styling */
+        td button {
+            background-color: #00bfff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        td button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        td button:hover {
+            background-color: #007bbf;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #888;
+            padding: 20px 0;
+            margin-top: 50px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        footer p, footer a {
+            font-size: 0.9em;
+            color: #00bfff;
+        }
+
+        footer a:hover {
+            color: #007bbf;
+        }
+
+        .note {
+            margin-top: 30px;
+            color: #f44336;
+            font-size: 0.85em;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 0.9em;
+            }
+            .scrolling-title {
+                font-size: 2em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header section with animated scrolling title -->
+    <header>
+        <div class="scrolling-title">
+            EXTRA_TERESTIAL - Dark Web Shop | Your one-stop shop for out-of-this-world products!
+        </div>
+    </header>
+
+    <!-- Main product section -->
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Buy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="assets/yt.png" alt="Youtube Premium"></td>
+                    <td><strong>Youtube Premium</strong><br>Get YouTube Premium at an affordable price.</td>
+                    <td>$3.00</td>
+                    <td><button><a href="https://t.me/EXTRATERE_STIAL">Buy Now</a></button></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/a.jpg" alt="Debit Cards"></td>
+                    <td><strong>Debit Cards</strong><br>Affordable debit cards available.</td>
+                    <td>$99.00</td>
+                    <td><button><a href="https://t.me/EXTRATERE_STIAL">Buy Now</a></button></td>
+                </tr>
+                <tr>
+                    <td><img src="assets/ex.png" alt="VPN Premium"></td>
+                    <td><strong>All VPN Premium</strong><br>Popular VPNs at a cheap rate.</td>
+                    <td>$3.00</td>
+                    <td><button><a href="https://t.me/EXTRATERE_STIAL">Buy Now</a></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Footer with social media links -->
+    <footer>
+        <p class="note">NOTE: If the "Buy Now" button does not work, copy the link and open it in another browser.</p>
+
+        <div class="owner-info">
+            <p>Owner Social Media Handles</p>
+            <p>GitHub: <a href="https://github.com/SHOJIB-HACKER">CLICK</a></p>
+            <p>Telegram: <a href="https://t.me/SHOJIBHACKER0">CLICK</a></p>
+        </div>
+
+        <p>© 2024 EXTRA_TERESTIAL. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript for hover effects -->
+    <script>
+        // Hover effect for images
+        document.querySelectorAll('td img').forEach(img => {
+            img.addEventListener('mouseover', () => {
+                img.style.transform = 'scale(1.1)';
+            });
+            img.addEventListener('mouseleave', () => {
+                img.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+
+</body>
+</html>
